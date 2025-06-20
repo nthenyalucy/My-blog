@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Blog</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <!-- README: Blog with authentication, pagination, post previews, and images -->
+
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="archive.html">Archive</a>
+      
+    </nav>
+  </header>
+
+  <main>
+    <section id="posts">
+  <article class="post-preview">
+  <img src="images\post1.jpg " alt="Post Image 1">
+  <h3>Welcome to My Blog</h3>
+  <p>This is the first post on this blog. <a href="post1.html">Read more...</a></p>
+</article>
+,
+
+<article class="post-preview">
+  <img src="images/post2.jpg" alt="Post Image 2">
+  <h3>Getting Started with Web Dev</h3>
+  <p>Learn the basics of HTML, CSS, and JavaScript. <a href="post2.html">Read more...</a></p>
+</article>
+
+      <div class="pagination">
+        <button disabled>&laquo; Prev</button>
+        <button class="active">1</button>
+        <button>2</button>
+        <button>Next &raquo;</button>
+      </div>
+    </section>
+
+    <aside id="blog-aside"></aside>
+  </main>
+
+  <script src="blog.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>
+

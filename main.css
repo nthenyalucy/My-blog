@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background-color: #200364;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 1rem;
+}
+nav a, nav button {
+  color: white;
+  background: #555;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+}
+
+section {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  background: #eee;
+  padding: 1rem;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+.post-preview img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.pagination button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+}
+.pagination button.active {
+  background: #333;
+  color: white;
+}
+
